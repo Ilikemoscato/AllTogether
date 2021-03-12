@@ -7,4 +7,21 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+
+    <!-- app主页背景色-->
+    <color name="main_background">#3A4547</color>
+
+    <!-- 字体颜色-->
+    <color name="font_color">#0066CC</color>
+
+    <!-- app主页按钮颜色-->
+    <color name="main_button1">#CCFFFF</color>
+    <color name="main_button1_press">#99CCCC</color>
+    <color name="main_button2">#FFFFCC</color>
+    <color name="main_button2_press">#FFFF99</color>
+    <color name="main_button3">#FF9966</color>
+    <color name="main_button3_press">#CC9966</color>
+    <color name="main_button4">#CCCCFF</color>
+    <color name="main_button4_press">#99CCCC</color>
+
 </resources>

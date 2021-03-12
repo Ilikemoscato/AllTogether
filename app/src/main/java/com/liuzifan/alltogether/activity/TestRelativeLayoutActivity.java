@@ -1,11 +1,13 @@
-package com.liuzifan.alltogether;
+package com.liuzifan.alltogether.activity;
 
 import android.os.Bundle;
 
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
-public class TestRelativeLayout extends AppCompatActivity {
+import com.liuzifan.alltogether.R;
+
+public class TestRelativeLayoutActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {

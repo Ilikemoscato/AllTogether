@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="#3A4547">
+    android:background="@color/main_background">
 
     <RelativeLayout
         android:id="@+id/layout_test"
@@ -14,7 +14,23 @@
         android:layout_marginTop="10dp"
         android:layout_marginLeft="10dp"
         android:layout_marginRight="10dp"
-        android:background="@drawable/main_button">
+        android:background="@drawable/main_button1">
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@mipmap/app_icon"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="30dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="30dp"
+            android:text="布局练习"
+            android:textSize="30sp"
+            android:textColor="@color/font_color"
+            />
     </RelativeLayout>
     <RelativeLayout
         android:id="@+id/network_test"
@@ -24,7 +40,23 @@
         android:layout_marginTop="10dp"
         android:layout_marginLeft="10dp"
         android:layout_marginRight="10dp"
-        android:background="@drawable/main_button">
+        android:background="@drawable/main_button2">
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@mipmap/network"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="30dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="30dp"
+            android:text="网络请求练习"
+            android:textSize="30sp"
+            android:textColor="@color/font_color"
+            />
     </RelativeLayout>
     <RelativeLayout
         android:id="@+id/test1"
@@ -34,7 +66,23 @@
         android:layout_marginTop="10dp"
         android:layout_marginLeft="10dp"
         android:layout_marginRight="10dp"
-        android:background="@drawable/main_button">
+        android:background="@drawable/main_button3">
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@mipmap/touchscreen"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="30dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="30dp"
+            android:text="四大组件练习"
+            android:textSize="30sp"
+            android:textColor="@color/font_color"
+            />
     </RelativeLayout>
     <RelativeLayout
         android:id="@+id/test2"
@@ -45,7 +93,23 @@
         android:layout_marginLeft="10dp"
         android:layout_marginRight="10dp"
         android:layout_marginBottom="10dp"
-        android:background="@drawable/main_button">
+        android:background="@drawable/main_button4">
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@mipmap/audio_play"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="30dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="30dp"
+            android:text="多媒体练习"
+            android:textSize="30sp"
+            android:textColor="@color/font_color"
+            />
     </RelativeLayout>
 
 </LinearLayout>
