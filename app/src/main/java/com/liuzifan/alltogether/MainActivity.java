@@ -10,6 +10,10 @@ import android.widget.RelativeLayout;
 import com.liuzifan.alltogether.activity.TestRelativeLayoutActivity;
 import com.liuzifan.alltogether.util.NoDoubleClickUtils;
 
+import java.util.HashMap;
+import java.util.Map;
+import java.util.Set;
+
 import butterknife.BindView;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
@@ -37,10 +41,15 @@ public class MainActivity extends AppCompatActivity {
         int id = view.getId();
         switch(id) {
             case R.id.layout_test:
-                if(!NoDoubleClickUtils.isDoubleClick())
-                    startActivity(new Intent(this, TestRelativeLayoutActivity.class));
+                if(!NoDoubleClickUtils.isDoubleClick()) {
+                    Intent intent = new Intent(this, TestRelativeLayoutActivity.class);
+                    intent.putExtra("name", "MainActivity");
+                    intent.putExtra("index", 10);
+                    startActivity(intent);
+                }
                 break;
         }
+
     }
 
 }

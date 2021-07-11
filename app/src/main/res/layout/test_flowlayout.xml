@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/first"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="搜索历史"/>
+
+    <com.liuzifan.alltogether.myview.FlowLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/first"
+        android:layout_margin="8dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/main_button2"
+            android:text="爱丁堡"
+            android:textSize="20dp"
+            android:textColor="@color/font_color"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/main_button2"
+            android:text="鱼香肉丝"
+            android:textSize="20dp"
+            android:textColor="@color/font_color"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/main_button2"
+            android:text="三体"
+            android:textSize="20dp"
+            android:textColor="@color/font_color"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/main_button2"
+            android:text="iPhone13"
+            android:textSize="20dp"
+            android:textColor="@color/font_color"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/main_button2"
+            android:text="裤子男生"
+            android:textSize="20dp"
+            android:textColor="@color/font_color"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/main_button2"
+            android:text="稳压器 电容"
+            android:textSize="20dp"
+            android:textColor="@color/font_color"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/main_button2"
+            android:text="奶粉2斤"
+            android:textSize="20dp"
+            android:textColor="@color/font_color"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/main_button2"
+            android:text="RTX3090"
+            android:textSize="20dp"
+            android:textColor="@color/font_color"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/main_button2"
+            android:text="联想小新笔记本"
+            android:textSize="20dp"
+            android:textColor="@color/font_color"/>
+
+    </com.liuzifan.alltogether.myview.FlowLayout>
+
+</RelativeLayout>
